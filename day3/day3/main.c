@@ -1,31 +1,31 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-//#include<stdio.h>
-//#include<math.h>
-//#include<windows.h>
-//
-//int main(){
-//	int i = 0;
-//	int j = 0;
-//	int count = 0;
-//	for (i = 101; i <= 200; i += 2){
-//		for (j = 2; j <= i/2; j++){
-//			if (i%j == 0)
-//				break;
-//		}
-//		if (j>i/2){
-//			count++;
-//			printf("%d ", i);
-//			if (count % 5 == 0){
-//				printf("\n");
-//			}
-//		}
-//
-//	}
-//	printf("\ncount = %d \n", count);
-//	system("pause");
-//	return 0;
-//}
-//
+#include<stdio.h>
+#include<math.h>
+#include<windows.h>
+
+int main(){
+	int i = 0;
+	int j = 0;
+	int count = 0;
+	for (i = 101; i <= 200; i += 2){
+		for (j = 2; j <= i/2; j++){
+			if (i%j == 0)
+				break;
+		}
+		if (j>i/2){
+			count++;
+			printf("%d ", i);
+			if (count % 5 == 0){
+				printf("\n");
+			}
+		}
+
+	}
+	printf("\ncount = %d \n", count);
+	system("pause");
+	return 0;
+}
+
 
 
 //#include<stdio.h>
